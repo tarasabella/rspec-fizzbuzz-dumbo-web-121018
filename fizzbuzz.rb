@@ -5,4 +5,8 @@ def fizzbuzz(int)
     # if the number integar is divisible by 3 
     return "Fizz"
 end
-end 
+elsif int % 5 == 0 
+  return "Buzz"
+elsif int % 3 == 0 && int % 5 == 0 
+  return "fizzbuzz"
+else return nil
