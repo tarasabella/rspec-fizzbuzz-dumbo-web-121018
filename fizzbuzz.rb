@@ -4,10 +4,13 @@ def fizzbuzz(int)
   if int % 3 == 0 
     # if the number integar is divisible by 3 
     return "Fizz"
+  end 
 elsif int % 5 == 0 
   return "Buzz"
+end 
 elsif int % 3 == 0 && int % 5 == 0 
   return "FizzBuzz"
+end 
 else return nil
 end
 end
